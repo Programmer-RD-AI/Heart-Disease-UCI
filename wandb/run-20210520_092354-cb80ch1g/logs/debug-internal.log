@@ -1,0 +1,5 @@
+2021-05-20 09:23:55,139 INFO    MainThread:97033 [internal.py:wandb_internal():91] W&B internal server running at pid: 97033, started at: 2021-05-20 09:23:55.139528
+2021-05-20 09:23:55,141 DEBUG   HandlerThread:97033 [handler.py:handle_request():121] handle_request: check_version
+2021-05-20 09:23:55,141 INFO    WriterThread:97033 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210520_092354-cb80ch1g/run-cb80ch1g.wandb
+2021-05-20 09:23:55,143 DEBUG   SenderThread:97033 [sender.py:send():176] send: header
+2021-05-20 09:23:55,143 DEBUG   SenderThread:97033 [sender.py:send_request():186] send_request: check_version

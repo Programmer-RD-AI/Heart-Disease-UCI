@@ -1,0 +1,315 @@
+2021-05-19 23:08:11,945 INFO    MainThread:723845 [internal.py:wandb_internal():91] W&B internal server running at pid: 723845, started at: 2021-05-19 23:08:11.945633
+2021-05-19 23:08:11,947 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: check_version
+2021-05-19 23:08:11,947 INFO    WriterThread:723845 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/run-hphk2t51.wandb
+2021-05-19 23:08:11,949 DEBUG   SenderThread:723845 [sender.py:send():176] send: header
+2021-05-19 23:08:11,949 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: check_version
+2021-05-19 23:08:12,644 DEBUG   SenderThread:723845 [sender.py:send():176] send: run
+2021-05-19 23:08:12,647 DEBUG   SenderThread:723845 [git.py:repo():33] git repository is invalid
+2021-05-19 23:08:13,124 INFO    SenderThread:723845 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files
+2021-05-19 23:08:13,124 INFO    SenderThread:723845 [sender.py:_start_run_threads():699] run started: hphk2t51 with start time 1621445891
+2021-05-19 23:08:13,124 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:13,124 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:13,125 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: run_start
+2021-05-19 23:08:14,124 DEBUG   HandlerThread:723845 [meta.py:__init__():39] meta init
+2021-05-19 23:08:14,125 DEBUG   HandlerThread:723845 [meta.py:__init__():53] meta init done
+2021-05-19 23:08:14,125 DEBUG   HandlerThread:723845 [meta.py:probe():210] probe
+2021-05-19 23:08:14,126 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:14,130 DEBUG   HandlerThread:723845 [git.py:repo():33] git repository is invalid
+2021-05-19 23:08:14,130 DEBUG   HandlerThread:723845 [meta.py:_save_code():89] save code
+2021-05-19 23:08:14,130 WARNING HandlerThread:723845 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-19 23:08:14,130 DEBUG   HandlerThread:723845 [meta.py:_save_pip():57] save pip
+2021-05-19 23:08:14,131 DEBUG   HandlerThread:723845 [meta.py:_save_pip():71] save pip done
+2021-05-19 23:08:14,131 DEBUG   HandlerThread:723845 [meta.py:_save_conda():78] save conda
+2021-05-19 23:08:15,128 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/requirements.txt
+2021-05-19 23:08:15,128 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/conda-environment.yaml
+2021-05-19 23:08:18,487 DEBUG   HandlerThread:723845 [meta.py:_save_conda():86] save conda done
+2021-05-19 23:08:18,487 DEBUG   HandlerThread:723845 [meta.py:probe():252] probe done
+2021-05-19 23:08:18,489 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 23:08:18,489 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 23:08:19,129 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/conda-environment.yaml
+2021-05-19 23:08:19,129 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-metadata.json
+2021-05-19 23:08:19,129 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/output.log
+2021-05-19 23:08:19,289 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,289 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,291 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,291 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,292 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,292 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,292 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,292 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,292 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,292 DEBUG   SenderThread:723845 [sender.py:send():176] send: files
+2021-05-19 23:08:19,293 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-19 23:08:19,293 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,293 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,293 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,293 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,294 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,294 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,296 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,296 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,297 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,297 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,297 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,297 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,297 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,297 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,297 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,297 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,297 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,298 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,298 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,298 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,298 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,298 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,298 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,298 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,298 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,298 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,298 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,351 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,351 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,351 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,444 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,444 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,445 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,535 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,535 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,535 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,625 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,626 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,626 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,717 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,718 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,718 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,808 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,809 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,809 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,903 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,904 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,904 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:19,995 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:19,995 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:19,995 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,091 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,091 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,092 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,129 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:20,181 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,184 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,184 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,274 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,274 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,275 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,363 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,363 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,363 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,453 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,454 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,454 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,542 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,542 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,542 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,639 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,639 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,640 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,710 INFO    Thread-11 :723845 [upload_job.py:push():133] Uploaded file /tmp/tmpqlzdgh46wandb/3dmtehy9-wandb-metadata.json
+2021-05-19 23:08:20,728 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,728 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,728 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,820 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,821 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,821 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:20,909 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:20,909 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:20,910 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,001 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,001 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,001 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,089 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,090 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,090 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,130 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:21,180 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,180 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,181 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,269 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,269 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,269 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,361 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,362 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,364 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,450 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,450 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,450 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,543 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,543 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,543 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,632 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,633 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,633 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,723 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,723 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,724 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,812 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,812 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,812 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,903 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,904 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,904 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:21,992 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:21,993 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:21,993 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,084 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,084 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,084 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,130 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:22,172 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,172 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,173 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,263 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,263 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,264 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,352 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,352 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,352 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,443 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,443 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,443 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,531 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,531 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,532 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,623 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,623 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,624 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,712 DEBUG   SenderThread:723845 [sender.py:send():176] send: history
+2021-05-19 23:08:22,712 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:22,712 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:22,723 DEBUG   SenderThread:723845 [sender.py:send():176] send: config
+2021-05-19 23:08:23,131 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:23,131 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/code/_session_history.ipynb
+2021-05-19 23:08:23,131 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/code
+2021-05-19 23:08:23,231 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 23:08:23,231 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 23:08:23,238 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:24,131 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/output.log
+2021-05-19 23:08:25,484 INFO    Thread-14 :723845 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/24/6c33b129490d16300faa6bcdb6230d
+2021-05-19 23:08:25,500 INFO    Thread-13 :723845 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/71/381f36caf345fd690fdd2d210e2ad9
+2021-05-19 23:08:27,993 DEBUG   SenderThread:723845 [sender.py:send():176] send: telemetry
+2021-05-19 23:08:27,994 DEBUG   SenderThread:723845 [sender.py:send():176] send: exit
+2021-05-19 23:08:27,995 INFO    SenderThread:723845 [sender.py:send_exit():281] handling exit code: 0
+2021-05-19 23:08:27,995 INFO    SenderThread:723845 [sender.py:send_exit():289] send defer
+2021-05-19 23:08:27,995 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:27,996 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:27,996 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-19 23:08:27,996 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:27,996 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-19 23:08:27,996 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 1
+2021-05-19 23:08:27,996 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:27,997 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-19 23:08:28,048 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:28,048 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-19 23:08:28,048 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 2
+2021-05-19 23:08:28,048 DEBUG   SenderThread:723845 [sender.py:send():176] send: stats
+2021-05-19 23:08:28,049 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:28,049 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-19 23:08:28,049 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:28,049 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-19 23:08:28,049 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 3
+2021-05-19 23:08:28,049 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:28,049 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-19 23:08:28,049 DEBUG   SenderThread:723845 [sender.py:send():176] send: summary
+2021-05-19 23:08:28,050 INFO    SenderThread:723845 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:08:28,050 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:28,050 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-19 23:08:28,050 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 4
+2021-05-19 23:08:28,050 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:28,050 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-19 23:08:28,050 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:28,050 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-19 23:08:28,100 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:28,133 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:28,134 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/config.yaml
+2021-05-19 23:08:28,530 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 5
+2021-05-19 23:08:28,530 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:28,530 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:28,531 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-19 23:08:28,531 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:28,531 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-19 23:08:28,531 INFO    SenderThread:723845 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-19 23:08:28,631 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:29,134 INFO    Thread-8  :723845 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/config.yaml
+2021-05-19 23:08:29,134 INFO    SenderThread:723845 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files
+2021-05-19 23:08:29,135 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/conda-environment.yaml conda-environment.yaml
+2021-05-19 23:08:29,135 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/config.yaml config.yaml
+2021-05-19 23:08:29,135 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/requirements.txt requirements.txt
+2021-05-19 23:08:29,135 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-metadata.json wandb-metadata.json
+2021-05-19 23:08:29,135 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json wandb-summary.json
+2021-05-19 23:08:29,146 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/output.log output.log
+2021-05-19 23:08:29,150 INFO    SenderThread:723845 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-05-19 23:08:29,150 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 6
+2021-05-19 23:08:29,153 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:29,154 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:29,154 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-19 23:08:29,158 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:29,158 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-19 23:08:29,159 INFO    SenderThread:723845 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 23:08:29,159 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 7
+2021-05-19 23:08:29,159 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:29,159 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-19 23:08:29,159 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:29,159 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-19 23:08:29,256 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:29,789 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 8
+2021-05-19 23:08:29,790 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:29,790 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:29,790 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-19 23:08:29,790 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:29,791 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-19 23:08:29,791 INFO    SenderThread:723845 [sender.py:send_request_defer():336] send defer: 9
+2021-05-19 23:08:29,791 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 23:08:29,792 INFO    HandlerThread:723845 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-19 23:08:29,792 DEBUG   SenderThread:723845 [sender.py:send():176] send: final
+2021-05-19 23:08:29,792 DEBUG   SenderThread:723845 [sender.py:send():176] send: footer
+2021-05-19 23:08:29,792 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: defer
+2021-05-19 23:08:29,792 INFO    SenderThread:723845 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-19 23:08:29,892 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:29,893 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:29,995 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:29,995 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,097 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,098 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,199 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,199 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,264 INFO    Thread-16 :723845 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/config.yaml
+2021-05-19 23:08:30,269 INFO    Thread-20 :723845 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/code/_session_history.ipynb
+2021-05-19 23:08:30,294 INFO    Thread-19 :723845 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/output.log
+2021-05-19 23:08:30,300 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,301 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,354 INFO    Thread-17 :723845 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/requirements.txt
+2021-05-19 23:08:30,402 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,402 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,454 INFO    Thread-15 :723845 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/conda-environment.yaml
+2021-05-19 23:08:30,504 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,504 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,605 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,606 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,707 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,707 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,744 INFO    Thread-18 :723845 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/files/wandb-summary.json
+2021-05-19 23:08:30,808 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,809 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:30,910 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:30,910 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:31,011 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 23:08:31,011 DEBUG   SenderThread:723845 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 23:08:31,011 INFO    SenderThread:723845 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 23:08:31,013 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-19 23:08:31,013 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-19 23:08:31,014 DEBUG   HandlerThread:723845 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-19 23:08:31,014 INFO    HandlerThread:723845 [handler.py:finish():632] shutting down handler
+2021-05-19 23:08:31,792 INFO    WriterThread:723845 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230811-hphk2t51/run-hphk2t51.wandb
+2021-05-19 23:08:32,012 INFO    SenderThread:723845 [sender.py:finish():925] shutting down sender
+2021-05-19 23:08:32,012 INFO    SenderThread:723845 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 23:08:32,012 INFO    SenderThread:723845 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 23:08:32,013 INFO    MainThread:723845 [internal.py:handle_exit():78] Internal process exited

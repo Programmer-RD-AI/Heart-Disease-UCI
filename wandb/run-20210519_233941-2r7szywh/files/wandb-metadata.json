@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.8.0-53-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.3",
+    "heartbeatAt": "2021-05-19T18:09:43.915404",
+    "startedAt": "2021-05-19T18:09:41.448630",
+    "docker": null,
+    "gpu": "GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": "11.0.228",
+    "args": [
+        "-f",
+        "/home/indika/.local/share/jupyter/runtime/kernel-1f6d2436-5405-468e-922b-9824214485d4.json"
+    ],
+    "state": "running",
+    "program": "00-main.ipynb",
+    "root": "/home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI",
+    "host": "ranugad",
+    "username": "indika",
+    "executable": "/home/indika/anaconda3/bin/python"
+}

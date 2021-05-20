@@ -1,0 +1,28 @@
+2021-05-19 23:07:10,447 INFO    MainThread:722591 [internal.py:wandb_internal():91] W&B internal server running at pid: 722591, started at: 2021-05-19 23:07:10.447696
+2021-05-19 23:07:10,449 DEBUG   HandlerThread:722591 [handler.py:handle_request():121] handle_request: check_version
+2021-05-19 23:07:10,449 INFO    WriterThread:722591 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230709-yy7eoii5/run-yy7eoii5.wandb
+2021-05-19 23:07:10,451 DEBUG   SenderThread:722591 [sender.py:send():176] send: header
+2021-05-19 23:07:10,451 DEBUG   SenderThread:722591 [sender.py:send_request():186] send_request: check_version
+2021-05-19 23:07:11,188 DEBUG   SenderThread:722591 [sender.py:send():176] send: run
+2021-05-19 23:07:11,190 DEBUG   SenderThread:722591 [git.py:repo():33] git repository is invalid
+2021-05-19 23:07:11,719 INFO    SenderThread:722591 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230709-yy7eoii5/files
+2021-05-19 23:07:11,720 INFO    SenderThread:722591 [sender.py:_start_run_threads():699] run started: yy7eoii5 with start time 1621445829
+2021-05-19 23:07:11,720 DEBUG   SenderThread:722591 [sender.py:send():176] send: summary
+2021-05-19 23:07:11,720 INFO    SenderThread:722591 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 23:07:11,721 DEBUG   HandlerThread:722591 [handler.py:handle_request():121] handle_request: run_start
+2021-05-19 23:07:12,721 INFO    Thread-8  :722591 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230709-yy7eoii5/files/wandb-summary.json
+2021-05-19 23:07:12,727 DEBUG   HandlerThread:722591 [meta.py:__init__():39] meta init
+2021-05-19 23:07:12,727 DEBUG   HandlerThread:722591 [meta.py:__init__():53] meta init done
+2021-05-19 23:07:12,727 DEBUG   HandlerThread:722591 [meta.py:probe():210] probe
+2021-05-19 23:07:12,733 DEBUG   HandlerThread:722591 [git.py:repo():33] git repository is invalid
+2021-05-19 23:07:12,733 DEBUG   HandlerThread:722591 [meta.py:_save_code():89] save code
+2021-05-19 23:07:12,733 WARNING HandlerThread:722591 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-19 23:07:12,733 DEBUG   HandlerThread:722591 [meta.py:_save_pip():57] save pip
+2021-05-19 23:07:12,734 DEBUG   HandlerThread:722591 [meta.py:_save_pip():71] save pip done
+2021-05-19 23:07:12,734 DEBUG   HandlerThread:722591 [meta.py:_save_conda():78] save conda
+2021-05-19 23:07:13,723 INFO    Thread-8  :722591 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230709-yy7eoii5/files/requirements.txt
+2021-05-19 23:07:13,724 INFO    Thread-8  :722591 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210519_230709-yy7eoii5/files/conda-environment.yaml
+2021-05-19 23:07:17,007 DEBUG   HandlerThread:722591 [meta.py:_save_conda():86] save conda done
+2021-05-19 23:07:17,007 DEBUG   HandlerThread:722591 [meta.py:probe():252] probe done
+2021-05-19 23:07:17,010 DEBUG   HandlerThread:722591 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 23:07:17,010 DEBUG   SenderThread:722591 [sender.py:send_request():186] send_request: stop_status

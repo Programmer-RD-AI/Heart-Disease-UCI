@@ -1,0 +1,15 @@
+2021-05-20 09:23:54,605 INFO    MainThread:88711 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-20 09:23:54,605 INFO    MainThread:88711 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-20 09:23:54,605 INFO    MainThread:88711 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210520_092354-cb80ch1g/logs/debug.log
+2021-05-20 09:23:54,605 INFO    MainThread:88711 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210520_092354-cb80ch1g/logs/debug-internal.log
+2021-05-20 09:23:54,606 INFO    MainThread:88711 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f765c0cfa20>
+2021-05-20 09:23:54,606 INFO    MainThread:88711 [wandb_init.py:init():369] calling init triggers
+2021-05-20 09:23:54,606 INFO    MainThread:88711 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-20 09:23:54,606 INFO    MainThread:88711 [wandb_init.py:init():418] starting backend
+2021-05-20 09:23:54,606 INFO    MainThread:88711 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-20 09:23:54,608 INFO    MainThread:88711 [backend.py:ensure_launched():132] starting backend process...
+2021-05-20 09:23:54,637 INFO    MainThread:88711 [backend.py:ensure_launched():137] started backend process with pid: 97033
+2021-05-20 09:23:54,637 INFO    MainThread:88711 [wandb_init.py:init():423] backend started and connected
+2021-05-20 09:23:54,648 INFO    MainThread:88711 [wandb_init.py:init():465] updated telemetry
+2021-05-20 09:23:54,648 INFO    MainThread:88711 [wandb_init.py:init():484] communicating current version

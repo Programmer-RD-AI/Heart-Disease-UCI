@@ -1,0 +1,27 @@
+2021-05-20 08:54:02,662 INFO    MainThread:43078 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-20 08:54:02,662 INFO    MainThread:43078 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-20 08:54:02,662 INFO    MainThread:43078 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210520_085402-lk4deak6/logs/debug.log
+2021-05-20 08:54:02,662 INFO    MainThread:43078 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Classification/Heart-Disease-UCI/wandb/run-20210520_085402-lk4deak6/logs/debug-internal.log
+2021-05-20 08:54:02,663 INFO    MainThread:43078 [wandb_init.py:init():369] calling init triggers
+2021-05-20 08:54:02,663 INFO    MainThread:43078 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-20 08:54:02,663 INFO    MainThread:43078 [wandb_init.py:init():391] re-initializing run, found existing run on stack: ia4pfmrb
+2021-05-20 08:54:02,663 INFO    MainThread:43078 [wandb_run.py:finish():1208] finishing run ranuga-d/Heart-Disease-UCI/ia4pfmrb
+2021-05-20 08:54:02,672 INFO    MainThread:43078 [jupyter.py:save_history():349] saving 61 cells to _session_history.ipynb
+2021-05-20 08:54:02,686 INFO    MainThread:43078 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2021-05-20 08:54:02,721 INFO    MainThread:43078 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-20 08:54:03,213 INFO    MainThread:43078 [wandb_init.py:_jupyter_teardown():267] saved code and history
+2021-05-20 08:54:03,213 INFO    MainThread:43078 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-05-20 08:54:03,213 INFO    MainThread:43078 [wandb_run.py:_atexit_cleanup():1535] got exitcode: 0
+2021-05-20 08:54:03,213 INFO    MainThread:43078 [wandb_run.py:_restore():1507] restore
+2021-05-20 08:54:08,216 INFO    MainThread:43078 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-20 08:54:08,388 INFO    MainThread:43078 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 52921
+  total_bytes: 52921
+  deduped_bytes: 19349
+}
+
