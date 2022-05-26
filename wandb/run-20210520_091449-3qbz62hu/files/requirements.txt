@@ -294,7 +294,7 @@ traitlets==4.3.2
 transformers==4.5.1
 typed-ast==1.4.3
 typing-extensions==3.7.4.3
-ujson==4.0.2
+ujson==5.2.0
 unicodecsv==0.14.1
 update-checker==0.18.0
 uritemplate==3.0.1
