@@ -53,7 +53,7 @@ defusedxml==0.5.0
 deprecation==2.1.0
 discord.py==1.7.1
 discord==1.0.1
-distributed==1.26.0
+distributed==2021.10.0
 dnspython==1.16.0
 docker-pycreds==0.4.0
 docutils==0.14
